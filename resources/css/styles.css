@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+body,
 html {
     background-color: #fff;
     color: #555;
@@ -11,6 +12,7 @@ html {
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
+    overflow-x: hidden;
 }
 
 .clearfix {
@@ -251,7 +253,7 @@ input[type=submit]:active {
 }
 
 .app-screen {
-    width: 40%;
+    width: 50%;
 }
 
 .works-step {
