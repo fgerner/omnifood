@@ -171,6 +171,14 @@ input[type=submit]:active {
     margin-top: 20px;
 }
 
+.logo-black {
+    display: none;
+    height: 50px;
+    width: auto;
+    float: left;
+    margin: 5px 0;
+}
+
 .main-nav {
     float: right;
     list-style: none;
@@ -196,6 +204,34 @@ input[type=submit]:active {
 .main-nav li a:hover,
 .main-nav li a:active {
     border-bottom: 2px solid #e67e22;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.96);
+    box-shadow: 0 2px 2px #e5e5e5;
+}
+
+.sticky .main-nav {
+    margin-top: 18px;
+}
+
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+    padding: 16px 0;
+    color: #555;
+}
+
+.sticky .logo {
+    display: none;
+}
+
+.sticky .logo-black {
+    display: block;
 }
 
 .section-features .long-copy {
@@ -452,6 +488,7 @@ footer {
 .social-links li:last-child {
     margin-right: 0;
 }
+
 .footer-nav li a:link,
 .footer-nav li a:visited,
 .social-links li a:link,
