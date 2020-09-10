@@ -18,20 +18,20 @@
             <img src="resources/img/logo-white.png" alt="logo" class="logo">
             <img src="resources/img/logo.png" alt="logo" class="logo-black">
             <ul class="main-nav">
-                <li><a href="#">Food delivery</a></li>
-                <li><a href="#">How it works</a></li>
-                <li><a href="#">Our cities</a></li>
-                <li><a href="#">Sign up</a></li>
+                <li><a href="#features">Food delivery</a></li>
+                <li><a href="#steps">How it works</a></li>
+                <li><a href="#cities">Our cities</a></li>
+                <li><a href="#plans">Sign up</a></li>
             </ul>
         </div>
     </nav>
     <div class="hero-text-box">
         <h1>Goodbye junk food.<br>Hello super healthy meals.</h1>
-        <a class="btn btn-full" href="#">I’m hungry</a>
-        <a class="btn btn-ghost" href="#">Show me more</a>
+        <a class="btn btn-full js-scroll-to-plans" href="#plans">I’m hungry</a>
+        <a class="btn btn-ghost js-scroll-to-start" href="#">Show me more</a>
     </div>
 </header>
-<section class="section-features js-section-features">
+<section id="features" class="section-features js-section-features">
     <div class="row">
         <h2>Get food fast &mdash; not fast food.</h2>
         <p class="long-copy">Hello, we’re Omnifood, your new premium food delivery service.
@@ -113,7 +113,7 @@
         </li>
     </ul>
 </section>
-<section class="section-steps">
+<section id="steps" class="section-steps">
     <div class="row">
         <h2>How it works &mdash; Simple as 1, 2, 3</h2>
     </div>
@@ -139,7 +139,7 @@
         </div>
     </div>
 </section>
-<section class="section-cities">
+<section id="cities" class="section-cities">
     <div class="row">
         <h2>We're currently in these cities</h2>
     </div>
@@ -242,7 +242,7 @@
         </div>
     </div>
 </section>
-<section class="section-plans">
+<section id="plans" class="section-plans">
     <div class="row">
         <h2>Start eating healthy today</h2>
     </div>
@@ -442,8 +442,11 @@
 </footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/respond@0.9.0/main.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/selectivizr@1.0.3/selectivizr.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
-<script src="vendors/js/jquery.waypoints.min.js"></script>
-<script src="resources/js/script.js"></script>
+<script src="./vendors/js/jquery.waypoints.min.js"></script>
+<script src="./resources/js/script.js"></script>
 </body>
 </html>
+
