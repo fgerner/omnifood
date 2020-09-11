@@ -541,3 +541,15 @@ footer p {
     font-size: 90%;
     margin-top: 30px;
 }
+
+.js-wp-1,
+.js-wp-2,
+.js-wp-3 {
+    opacity: 0;
+}
+
+.js-wp-1.animated,
+.js-wp-2.animated,
+.js-wp-3.animated {
+    opacity: 1;
+}
