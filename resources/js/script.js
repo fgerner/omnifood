@@ -21,19 +21,35 @@ $(document).ready(function () {
     }, {
         offset: '50%'
     })
+
     $('.js-wp-2').waypoint(function (direction) {
         $('.js-wp-2').addClass('animated animate__fadeInUp');
     }, {
         offset: '50%'
     })
+
     $('.js-wp-3').waypoint(function (direction) {
         $('.js-wp-3').addClass('animated animate__fadeIn');
     }, {
         offset: '50%'
     })
+
     $('.js-wp-4').waypoint(function (direction) {
         $('.js-wp-4').addClass('animated animate__pulse');
     }, {
         offset: '50%'
+    })
+
+    $('.js-nav-icon').click(function () {
+        const nav = $('.js-main-nav');
+        const icon = $('.js-nav-icon ion-icon');
+
+        nav.slideToggle(200);
+
+        if (icon[0].name === 'close-outline') {
+            icon[0].name = 'menu-outline'
+        } else if (icon[0].name === 'menu-outline') {
+            icon[0].name = 'close-outline'
+        }
     })
 });

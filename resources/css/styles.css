@@ -207,6 +207,18 @@ input[type=submit]:active {
     border-bottom: 2px solid #e67e22;
 }
 
+.mobile-nav-icon {
+    float: right;
+    margin-top: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-nav-icon ion-icon {
+    font-size: 200%;
+    color: #fff;
+}
+
 .sticky {
     position: fixed;
     top: 0;
@@ -220,7 +232,6 @@ input[type=submit]:active {
 .sticky .main-nav {
     margin-top: 18px;
 }
-
 
 .sticky .main-nav li a:link,
 .sticky .main-nav li a:visited {
